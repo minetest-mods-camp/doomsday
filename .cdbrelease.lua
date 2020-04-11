@@ -24,7 +24,7 @@ return {
 	path = ".",
 	type = "mod",
 	title = "Doomsday Device",
-	short_desc = "The pinnacle of explosives mods for Minetest",
+	short_desc = "The pinnacle of explosives mods",
 	tags = "combat, tools, machines",
 	license = "mit",
 	desc = readtext('README.md'),

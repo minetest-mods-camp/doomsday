@@ -20,7 +20,7 @@ return {
 	user = "Warr1024",
 	pkg = "doomsday",
 	min = "5.0",
-	version = dofile("./mods/nc_api/version.lua"),
+	version = stamp .. "-$Format:%h$",
 	path = ".",
 	type = "mod",
 	title = "Doomsday Device",

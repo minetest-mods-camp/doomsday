@@ -38,7 +38,7 @@ local shells = {
 	{["default:torch"] = true},
 	{["default:mese"] = true},
 	{
-		["default:diamond_block"] = true,
+		["default:diamondblock"] = true,
 		["nc_lode:block_tempered"] = true,
 		["nc_lode:block_annealed"] = true
 	}

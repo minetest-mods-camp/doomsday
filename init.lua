@@ -25,7 +25,8 @@ local function deadworld()
 	if not data.date then return end
 	return string_format("\n\nThis world has been destroyed.\n\n"
 		.. "Player %q completed construction of a doomsday device"
-		.. " at %s on %s, and rendered this world uninhabitable.",
+		.. " at %s on %s, and rendered this world"
+		.. " permanently uninhabitable.",
 		data.pname or "UNKNOWN",
 		data.pos and minetest.pos_to_string(data.pos) or "UNKNOWN",
 		data.date)

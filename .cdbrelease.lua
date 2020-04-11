@@ -25,6 +25,7 @@ return {
 	type = "mod",
 	title = "Doomsday Device",
 	short_desc = "The pinnacle of explosives mods for Minetest",
+	tags = "combat, tools, machines",
 	license = "mit",
 	desc = readtext('README.md'),
 	repo = "https://gitlab.com/sztest/doomsday",

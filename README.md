@@ -16,3 +16,5 @@ Surround those on all faces with blocks of diamond.
 **In NodeCore**: Surround a lit torch on all 6 faces with lux
 cobble.  Surround those on all faces with blocks of solid lode.
 
+N.B. it doesn't matter what order you place the nodes, but they need
+to be placed manually by a player.

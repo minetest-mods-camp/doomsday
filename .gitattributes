@@ -1,3 +1,4 @@
 .cdbrelease.lua	export-subst
+.cdb.json	export-ignore
 .git*		export-ignore
 .lua*		export-ignore

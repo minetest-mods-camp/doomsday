@@ -1,0 +1,12 @@
+{
+	"user": "Warr1024",
+	"type": "mod",
+	"tags": ["combat_mod_jam",
+		"tools",
+		"technology"
+	],
+	"title": "Doomsday Device",
+	"license": "MIT",
+	"media_license": "MIT",
+	"repo": "https://gitlab.com/sztest/nodecore"
+}

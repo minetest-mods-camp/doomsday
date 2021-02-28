@@ -1,6 +1,6 @@
 -- LUALOCALS < ---------------------------------------------------------
-local dofile, math, tonumber
-    = dofile, math, tonumber
+local math, tonumber
+    = math, tonumber
 local math_floor
     = math.floor
 -- LUALOCALS > ---------------------------------------------------------
@@ -17,21 +17,13 @@ readtext = readtext or function() end
 readbinary = readbinary or function() end
 
 return {
-	user = "Warr1024",
 	pkg = "doomsday",
-	min = "5.0",
 	version = stamp .. "-$Format:%h$",
-	path = ".",
-	type = "mod",
-	title = "Doomsday Device",
-	short_desc = "The pinnacle of explosives mods",
-	tags = "combat, tools, machines",
-	license = "mit",
-	desc = readtext('README.md'),
-	repo = "https://gitlab.com/sztest/doomsday",
+	short_description = "The pinnacle of explosives mods",
+	long_description = readtext('README.md'),
 	screenshots = {
-		readbinary('.cdb-screen-mtg.jpg'),
-		readbinary('.cdb-screen-nodecore.jpg')
+		readbinary('.cdb-screen-nodecore.jpg'),
+		readbinary('.cdb-screen-mtg.jpg')
 	}
 }
 

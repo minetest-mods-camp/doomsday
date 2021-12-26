@@ -18,6 +18,7 @@ readbinary = readbinary or function() end
 
 return {
 	pkg = "doomsday",
+	dev_state = "MAINTENANCE_ONLY",
 	version = stamp .. "-$Format:%h$",
 	short_description = "The pinnacle of explosives mods",
 	long_description = readtext('README.md'),
